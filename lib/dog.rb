@@ -5,7 +5,7 @@ class Dog
   @@all = []
   
   #instance variable(s)
-  attr_accesor :name
+  attr_accessor :name
   
   def initialize(name)
     @name = name
